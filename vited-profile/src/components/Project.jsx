@@ -13,7 +13,7 @@ const Project = () => {
         {
             id: 2,
             name: 'Schduler',
-            desc: 'A fun and creative way to add space themes to your cocktails.',
+            desc: 'A great application for scheduling your day.',
             img: 'src/assets/scheduler.png',
             link: 'https://graycoded.github.io/scheduler/',
             repo: 'https://github.com/GrayCoded/scheduler'
@@ -21,7 +21,7 @@ const Project = () => {
         {
             id: 3,
             name: 'weather-dashboard',
-            desc: 'A fun and creative way to add space themes to your cocktails.',
+            desc: 'Great for planning a weekend',
             img: 'src/assets/weather-dashboard.png',
             link: 'https://graycoded.github.io/weather-dashboard/',
             repo: 'https://github.com/GrayCoded/weather-dashbord'
@@ -29,7 +29,7 @@ const Project = () => {
         {
             id: 4,
             name: 'Mapbrew',
-            desc: 'A fun and creative way to add space themes to your cocktails.',
+            desc: 'A creative way to create maps.',
             img: 'src/assets/mapbrew.png',
             link: 'https://mapbrew-websitee-20a575919a4b.herokuapp.com/login',
             repo: 'https://github.com/GrayCoded/mapbrew'
