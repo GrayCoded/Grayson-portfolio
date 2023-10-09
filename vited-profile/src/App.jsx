@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import ReactDOM from 'react-dom';
+import { useState, useEffect } from 'react';
 
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -36,21 +35,25 @@ function App() {
     },
   ]);
 
+  const [visible, setVisible] = useState(false);
+  useEffect(() => {
+    setVisible(true);
+  }, []);
+
   return (
-    <div>
+    <div
+      id="app"
+      className={`fade-in ${visible
+        ? 'opacity-100, filter brightness-100'
+        : 'opacity-0, filter brightness-0'
+        }`}
+    >
       <Header />
       <RouterProvider router={routes} />
       <Footer />
     </div>
   );
-
-
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
 
 export default App;
