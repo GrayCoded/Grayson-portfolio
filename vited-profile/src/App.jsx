@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Vite from 'vite';
+import ReactDOM from 'react-dom';
 
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -9,7 +9,7 @@ import Error from './components/Error';
 import Project from './components/Project';
 import Home from './components/Home';
 
-import './styles.css';
+import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 function App() {

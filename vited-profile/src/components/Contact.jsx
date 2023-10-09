@@ -48,7 +48,7 @@ const Contact = () => {
                     />
                     <label
                         htmlFor="name"
-                        className=""
+                        className="absolute duration-300 top-3 -z-1 origin-0 text-green-500"
                     >Name
                     </label>
                     <span className="text-red-500 hidden">

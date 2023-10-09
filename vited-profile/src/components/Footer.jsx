@@ -14,14 +14,16 @@ const Footer = () => {
                 </a>
                 <div className='flex gap-x-6 mr-4 items-center'>
                     <a href="https://github.com/GrayCoded/"
-                        className="hover:scale-120 hover:text-magenta duration-250"
+                        className="hover:scale-120 hover:text-magenta duration-250" aria-label="GitHub"
                     >
-                        <i FontAwesomeIcon icon="fa-brands fa-github" fontSize={45} />
+                        <FontAwesomeIcon icon={faGithub} style={{ fontSize: '45px' }} />
+
                     </a>
                     <a href="https://www.linkedin.com/in/daniel-grayson-3229a5119/"
-                        className="hover:scale-120 hover:text-magenta duration-250"
+                        className="hover:scale-120 hover:text-magenta duration-250" aria-label="Linkedin"
                     >
-                        <i FontAwesomeIcon icon="fa-brands fa-linkedin" fontSize={45} />
+                        <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: '45px' }} />
+
                     </a>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const NavBar = () => {
-    const [activeTab, setActiveTab] = useState('false');
+    const [activeTab, setActiveTab] = useState(false);
     const tabs = [
         {
             id: 1,
@@ -43,9 +43,12 @@ const NavBar = () => {
             <div
                 onClick={() => setActiveTab(!activeTab)}
                 className="text-white cursor-pointer pr-3 sm:hidden"
+                role="button"
+                aria-label="Toggle Navigation"
             >
                 {!activeTab ? 'Home' : 'Close'}
             </div>
+
             {activeTab && (
                 <div className="z-60">
                     <ul className="text-6xl sm:hidden gap-y-12 flex flex-col justify-center items-center absolue top-0 left-0 w-full h-screen bg-gradient-to-b from-transparent to-opacityBlue">
