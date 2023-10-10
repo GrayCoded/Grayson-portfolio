@@ -1,12 +1,12 @@
-export default function About()  {
+export default function About() {
 
     return (
         <div>
             <h1>Daniel Grayson</h1>
             <img
-                src="./src/assets/picture_of_daniel.jpg"
+                src="./src/assets/photos/picture_of_daniel.jpg"
                 alt="Photo of Daniel"
-                className="photo"
+                className=""
             />
             <p>
                 Hello! and welcome to my professional portfolio. My name is Daniel Grayson and I am going to introduce myself

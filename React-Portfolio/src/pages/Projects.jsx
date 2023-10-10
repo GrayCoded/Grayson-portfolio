@@ -4,7 +4,7 @@ export default function Project() {
             id: 1,
             name: 'Cosmic Cocktail Creator',
             desc: 'A fun and creative way to add space themes to your cocktails.',
-            img: 'src/assets/cosmic-cocktail.jpg',
+            img: 'src/assets/photos/cosmic-cocktail.jpg',
             link: 'https://greycoded.github.io/cosmic-cocktail-creator-2.0/',
             repo: 'https://github.com/GrayCoded/cosmic-cocktail-2.0'
         },
@@ -12,7 +12,7 @@ export default function Project() {
             id: 2,
             name: 'Schduler',
             desc: 'A great application for scheduling your day.',
-            img: 'src/assets/scheduler.png',
+            img: 'src/assets/photos/scheduler.png',
             link: 'https://graycoded.github.io/scheduler/',
             repo: 'https://github.com/GrayCoded/scheduler'
         },
@@ -20,7 +20,7 @@ export default function Project() {
             id: 3,
             name: 'weather-dashboard',
             desc: 'Great for planning a weekend',
-            img: 'src/assets/weather-dashboard.png',
+            img: 'src/assets/photos/weather-dashboard.png',
             link: 'https://graycoded.github.io/weather-dashboard/',
             repo: 'https://github.com/GrayCoded/weather-dashbord'
         },
@@ -28,12 +28,12 @@ export default function Project() {
             id: 4,
             name: 'Mapbrew',
             desc: 'A creative way to create maps.',
-            img: 'src/assets/mapbrew.png',
+            img: 'src/assets/photos/mapbrew.png',
             link: 'https://mapbrew-websitee-20a575919a4b.herokuapp.com/login',
             repo: 'https://github.com/GrayCoded/mapbrew'
         },
     ];
-  
+
     return (
         <div className="text-white">
             <div className="flex flex-col items-center gap-y-10 min-h-screen">
@@ -55,13 +55,12 @@ export default function Project() {
                                     <p>GitHub Repo</p>
                                 </a>
                             ) : null}
-  
+
                         </div>
                     ))}
                 </div>
             </div>
         </div>
-  
+
     );
-  };
-  
+};
