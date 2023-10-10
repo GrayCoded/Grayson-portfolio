@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Project = () => {
+export default function Project() {
     const projectList = [
         {
             id: 1,
@@ -35,7 +33,7 @@ const Project = () => {
             repo: 'https://github.com/GrayCoded/mapbrew'
         },
     ];
-
+  
     return (
         <div className="text-white">
             <div className="flex flex-col items-center gap-y-10 min-h-screen">
@@ -57,14 +55,13 @@ const Project = () => {
                                     <p>GitHub Repo</p>
                                 </a>
                             ) : null}
-
+  
                         </div>
                     ))}
                 </div>
             </div>
         </div>
-
+  
     );
-};
-
-export default Project;
+  };
+  
